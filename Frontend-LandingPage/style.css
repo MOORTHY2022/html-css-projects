@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background: url(img/webback3.jpg);
+    margin: 0px;
+    padding: 0px;
+    font-family:  Arial, sans-serif;
+    color: #fff;
+    position: relative;
+    
+}
+div {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+header {
+    text-align: center;
+    border: 2px solid #fff;
+    background-color: #333;
+    padding: 5px;
+    font-weight: bolder;
+    display: block;
+}
+
+
+
+main {
+    padding-top: 50px;
+    margin-top: 100px;
+}
+section {
+    border-bottom: 2px solid whitesmoke;
+    margin-top: 10px;
+    padding-left: 70px;
+}
+h1 {
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+p {
+    line-height: 1.5;
+    font-size:20px;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 20px; 
+}
+ul a {
+    color: white;
+    line-height: 2;
+    display: block;
+    width: 300px;
+}
+ul a:active {
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+footer {
+    border: 1px solid #fff;
+    background-color: #333;
+    color: whitesmoke;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
